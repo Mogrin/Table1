@@ -18,12 +18,12 @@
 		C785C9F119EE47F700D34C78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C785C9F019EE47F700D34C78 /* Default-568h@2x.png */; };
 		C785C9F419EE47F700D34C78 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C785C9F219EE47F700D34C78 /* MainStoryboard.storyboard */; };
 		C785C9F719EE47F700D34C78 /* TVTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C785C9F619EE47F700D34C78 /* TVTMasterViewController.m */; };
-		C785C9FA19EE47F800D34C78 /* TVTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C785C9F919EE47F800D34C78 /* TVTDetailViewController.m */; };
 		C785CA0219EE47F800D34C78 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C785CA0119EE47F800D34C78 /* SenTestingKit.framework */; };
 		C785CA0319EE47F800D34C78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C785C9DA19EE47F700D34C78 /* UIKit.framework */; };
 		C785CA0419EE47F800D34C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C785C9DC19EE47F700D34C78 /* Foundation.framework */; };
 		C785CA0C19EE47F800D34C78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C785CA0A19EE47F800D34C78 /* InfoPlist.strings */; };
 		C785CA0F19EE47F800D34C78 /* TVTest3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C785CA0E19EE47F800D34C78 /* TVTest3Tests.m */; };
+		C785CA1A19EE4A1100D34C78 /* TVTDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = C785CA1919EE4A1100D34C78 /* TVTDirectory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,14 +53,14 @@
 		C785C9F319EE47F700D34C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C785C9F519EE47F700D34C78 /* TVTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVTMasterViewController.h; sourceTree = "<group>"; };
 		C785C9F619EE47F700D34C78 /* TVTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVTMasterViewController.m; sourceTree = "<group>"; };
-		C785C9F819EE47F800D34C78 /* TVTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVTDetailViewController.h; sourceTree = "<group>"; };
-		C785C9F919EE47F800D34C78 /* TVTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVTDetailViewController.m; sourceTree = "<group>"; };
 		C785CA0019EE47F800D34C78 /* TVTest3Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVTest3Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C785CA0119EE47F800D34C78 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C785CA0919EE47F800D34C78 /* TVTest3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TVTest3Tests-Info.plist"; sourceTree = "<group>"; };
 		C785CA0B19EE47F800D34C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C785CA0D19EE47F800D34C78 /* TVTest3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVTest3Tests.h; sourceTree = "<group>"; };
 		C785CA0E19EE47F800D34C78 /* TVTest3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVTest3Tests.m; sourceTree = "<group>"; };
+		C785CA1819EE4A1100D34C78 /* TVTDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVTDirectory.h; sourceTree = "<group>"; };
+		C785CA1919EE4A1100D34C78 /* TVTDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVTDirectory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +125,8 @@
 				C785C9F219EE47F700D34C78 /* MainStoryboard.storyboard */,
 				C785C9F519EE47F700D34C78 /* TVTMasterViewController.h */,
 				C785C9F619EE47F700D34C78 /* TVTMasterViewController.m */,
-				C785C9F819EE47F800D34C78 /* TVTDetailViewController.h */,
-				C785C9F919EE47F800D34C78 /* TVTDetailViewController.m */,
+				C785CA1819EE4A1100D34C78 /* TVTDirectory.h */,
+				C785CA1919EE4A1100D34C78 /* TVTDirectory.m */,
 				C785C9E119EE47F700D34C78 /* Supporting Files */,
 			);
 			path = TVTest3;
@@ -279,7 +279,7 @@
 				C785C9E719EE47F700D34C78 /* main.m in Sources */,
 				C785C9EB19EE47F700D34C78 /* TVTAppDelegate.m in Sources */,
 				C785C9F719EE47F700D34C78 /* TVTMasterViewController.m in Sources */,
-				C785C9FA19EE47F800D34C78 /* TVTDetailViewController.m in Sources */,
+				C785CA1A19EE4A1100D34C78 /* TVTDirectory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

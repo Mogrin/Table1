@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TVTDirectory.h"
 
 @interface TVTMasterViewController : UITableViewController
+
+@property (nonatomic, retain) NSMutableArray *directories;
+@property (nonatomic, retain) TVTDirectory *runDirectory;
+@property (nonatomic, retain) NSNumber *runDirectoryId;
+
 
 @end
